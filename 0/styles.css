@@ -1,0 +1,15 @@
+.square {
+    position: absolute;
+    top:50px;
+    margin-left: 60px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FF3D00;
+    animation: move 2s;
+}
+
+@keyframes move {
+    to {
+        margin-left: 500px;
+    }
+}

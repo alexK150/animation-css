@@ -1,0 +1,15 @@
+#square {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin-left: 30px;
+    animation: moveRight infinite;
+    animation-duration: 5s;
+}
+
+@keyframes moveRight {
+    to {
+        margin-left: 500px;
+    }
+}
