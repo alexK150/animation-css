@@ -1,0 +1,16 @@
+.box {
+    margin: 20px;
+    border: 1px solid red;
+    height: 10vh;
+    width: 15%;
+}
+
+.box:hover {
+    animation: wider infinite 5s;
+}
+
+@keyframes wider {
+    to {
+        width: 90%;
+    }
+}

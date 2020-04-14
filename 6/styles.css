@@ -1,0 +1,30 @@
+.box1 {
+    margin: 20px;
+    border: 1px solid blue;
+    height: 10vh;
+    width: 15rem;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    padding: 15px;
+}
+
+.box2 {
+    margin: 20px;
+    border: 1px solid red;
+    height: 10vh;
+    width: 10rem;
+}
+
+.box1:hover .box2 {
+    width: 50rem;
+    /*animation: wider running 1s;*/
+}
+
+@keyframes wider {
+    to {
+        width: 50rem;
+    }
+}

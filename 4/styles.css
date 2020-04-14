@@ -1,0 +1,20 @@
+.line {
+    margin: 30px;
+    border: 1px solid red;
+    height: 30px;
+    width: 400px;
+}
+
+.loading {
+    background: red;
+    width: 0px;
+    height: 30px;
+    animation: loading linear infinite;
+    animation-duration: 5s;
+}
+
+@keyframes loading {
+    to {
+        width: 400px;
+    }
+}
